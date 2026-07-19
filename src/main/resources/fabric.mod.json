@@ -7,15 +7,11 @@
   "authors": [
     "Youssef Saad"
   ],
-  "contact": {
-    "sources": "https://github.com/YOUR_USERNAME/TextAligner"
-  },
   "license": "MIT",
-  "icon": "assets/textaligner/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.youssef.textaligner.TextAlignerClient"
+      "com.textaligner.TextAlignerClient"
     ]
   },
   "mixins": [
