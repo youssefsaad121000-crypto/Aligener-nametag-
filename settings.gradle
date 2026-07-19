@@ -1,12 +1,13 @@
 pluginManagement {
-    repositories {
-        maven {
-            name = "Fabric"
-            url = "https://maven.fabricmc.net/"
-        }
-        gradlePluginPortal()
-        mavenCentral()
-    }
+	repositories {
+		maven {
+			name = 'Fabric'
+			url = 'https://maven.fabricmc.net/'
+		}
+		mavenCentral()
+		gradlePluginPortal()
+	}
 }
 
-rootProject.name = "TextAligner"
+// Should match your modid
+rootProject.name = 'template-mod'
