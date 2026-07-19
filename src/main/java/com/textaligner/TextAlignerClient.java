@@ -11,6 +11,9 @@ public class TextAlignerClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        LOGGER.info("TextAligner initialized!");
+        LOGGER.info("================================");
+        LOGGER.info(" TextAligner Loaded Successfully");
+        LOGGER.info(" Minecraft 1.21.11");
+        LOGGER.info("================================");
     }
 }
