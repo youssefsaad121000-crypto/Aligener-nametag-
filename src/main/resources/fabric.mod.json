@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "textaligner",
+  "version": "${version}",
+  "name": "TextAligner",
+  "description": "Fixes text rendering issues on MojoLauncher with shaders.",
+  "authors": [
+    "Youssef Saad"
+  ],
+  "contact": {
+    "sources": "https://github.com/YOUR_USERNAME/TextAligner"
+  },
+  "license": "MIT",
+  "icon": "assets/textaligner/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.youssef.textaligner.TextAlignerClient"
+    ]
+  },
+  "mixins": [
+    "textaligner.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
